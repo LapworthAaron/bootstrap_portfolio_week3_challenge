@@ -9,115 +9,166 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Custom styles for this template -->
-        <link href="css/index.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
 
         <title>Aaron Lapworth // Web Developer</title>
     </head>
 
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <p class="navbar-brand">Aaron Lapworth</p>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
+        <header class="header_bg">
+            <nav class="transparent_bg navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="my_nav navbar-brand" href="#">
+                        <img class="logo" src="../images/logo.png" alt="Aaron Lapworth logo" width="65px">
+                        Aaron Lapworth
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about_me">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact_me">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
             </nav>
-            <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <div class="transparent_bg jumbotron">
+                <img class="inline_jumbo" src="../images/picofme_transparent.png" alt="" width="250px">
+                <div class="inline_jumbo jumbo_text">
+                    <h1 class="display-4">Web Developer in training</h1>
+                    <p class="lead">I'm currently studying on a 4 month Front End web development Bootcamp</p>
+                </div>
             </div>
         </header>
 
         <main>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                    <div class="bd-example">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="images/testimonials-1.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>First slide label</h5>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                    </div>
+            <section id="projects">
+                <h2 class="section_headings"><img class="logo" src="../images/logo.png" alt="Aaron Lapworth logo" width="65px">Projects</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 my_cards">
+                            <a href="https://lapworthaaron.github.io/week2_challenge" class="card card_div" id="week2_challenge">
+                                <img src="https://placehold.co/600x400/png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootcamp Week 2 Challenge</h5>
+                                    <p class="card-text">A portfolio I built myself</p>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="images/testimonials-2.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Second slide label</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/testimonials-3.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Third slide label</h5>
-                                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 my_cards">
+                            <a href="https://lapworthaaron.github.io/css_cheatsheet" class="card card_div" id="css_cheatsheet">
+                                <img src="../images/css_cheatsheet.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Widweek piece - CSS Cheatsheet</h5>
+                                    <p class="card-text">A cheatsheet combing learnings</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 my_cards">
+                            <a href="https://lapworthaaron.github.io/furniture_store" class="card card_div" id="furniture_store">
+                                <img src="../images/furniture_store.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Widweek piece - Furniture Store</h5>
+                                    <p class="card-text">First page using CSS Grids and sizing them</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 my_cards">
+                            <a href="https://lapworthaaron.github.io/jakes_eatery" class="card card_div" id="jakes_eatery">
+                                <img src="../images/jakes_eatery.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Widweek piece - Jake's Eatery</h5>
+                                    <p class="card-text">First page using CSS Flexboxes</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 my_cards">
+                            <a href="https://lapworthaaron.github.io/week1_challenge" class="card card_div" id="week1_challenge">
+                                <img src="../images/week1_challenge.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootcamp Week 1 Challenge</h5>
+                                    <p class="card-text">The first weeks graded work, fixing a site</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 my_cards">
+                            <a href="https://lapworthaaron.github.io/landing_page/" class="card card_div" id="landging_page">
+                                <img src="../images/landing_page.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Widweek piece - Landing Page</h5>
+                                    <p class="card-text">A landing page with non-functioning inputs</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 my_cards">
+                            <a  href="https://lapworthaaron.github.io/prework-study-guide/" class="card card_div" id="prework-study-guide">
+                                <img src="../images/prework_study_guide.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pre-work Study Guide</h5>
+                                    <p class="card-text">My very first webpage, creating a simple study guide</p>
+                                </div>
                             </a>
                         </div>
                     </div>
                 </div>
-                </div>
-            </div>
+            </section>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">About Me</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">About Me</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <section id="about_me">
+                <h2 class="section_headings"><img class="logo" src="../images/logo.png" alt="Aaron Lapworth logo" width="65px">About Me</h2>
+            </section>
         </main>
 
         <footer>
-
+            <section id="contact_me">
+                <h2 class="section_headings"><img class="logo" src="../images/logo.png" alt="Aaron Lapworth logo" width="65px">Contact Me</h2>
+            </section>
+            <section class="bg-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card add_card">
+                                <div class="card-body">
+                                    <h4 class="text-uppercase">ADDRESS</h4>
+                                    <div>St Albans</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card add_card">
+                                <div class="card-body">
+                                    <h4 class="text-uppercase">EMAIL</h4>
+                                    <div>aaronlapworth@hotmail.co.uk</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card add_card">
+                                <div class="card-body">
+                                    <h4 class="text-uppercase">PHONE</h4>
+                                    <div>1 (800) CALI-FORNIA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fa fa-twitter fa-2x"></i></a>
+                        <a href=""><i class="fa fa-facebook fa-2x"></i></a>
+                        <a href=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="copyright">
+                <div class="container">
+                    <div class="footer">
+                        <p>Copyright Aaron Lapworth</p>
+                    </div>
+                </div>
+            </section>
         </footer>
     </body>
 
