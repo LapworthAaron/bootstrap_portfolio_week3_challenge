@@ -71,20 +71,29 @@ body {
     text-decoration: none !important;
 }
 
-
 /* setup the text boxes for each card */
-.card_div .card_body {
+.card_div .work_card_body {
     background-color: rgba(255,255,255,0.9) !important;
     padding: 15px;
-    height: 85px;
-    color: white;
+    color: black;
     font-size: 18px;
-    border-radius: 19px;
-}
-.card_div img {
-    height: 200px;
 }
 
+
+.card_div img {
+    object-fit: cover;
+}
+
+.card_div:hover img {
+    opacity: 0.3;
+}
+
+.card_div:hover .work_card_body {
+    background-color: rgba(0,0,0,0.5) !important;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+}
 
 #css_cheatsheet,
 #furniture_store,
@@ -95,7 +104,6 @@ body {
         background-size: cover;
 		background-position: top;
 }
-
 
 .bg-black {
     background-color: black;
@@ -119,8 +127,7 @@ body {
     justify-content: center;
 }
 
-.add_card .card-body h4{
-    font-family: 'Catamaran';
+.add_card .card-body h4 {
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -128,8 +135,7 @@ body {
     letter-spacing: 0.06em;
 }
 
-.add_card .card-body div{
-    font-family: 'Catamaran';
+.add_card .card-body div {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -160,9 +166,8 @@ body {
     margin: 25px 5px;
 }
 
-/* footer {
+.copyright {
     background-color: #313131;
-    font-family: 'Catamaran';
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -174,7 +179,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-} */
+}
 
 .copyright .container {
     display: flex;
