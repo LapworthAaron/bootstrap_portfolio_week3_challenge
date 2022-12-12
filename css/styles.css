@@ -105,8 +105,39 @@ body {
 		background-position: top;
 }
 
+/* About me section */
+.accordion {
+    margin: 1rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.collapse-card-body {
+    padding: 1rem;
+    background-color: dimgrey;
+    color: white;
+}
+/* About me section END */
+
+/* Contact me section */
 .bg-black {
-    background-color: black;
+    background-color: dimgrey;
+}
+
+.col-md-4 {
+    padding-right: 10px;
+    padding-left: 10px;
 }
   
 .add_card {
@@ -132,10 +163,10 @@ body {
     font-weight: 500;
     font-size: 19px;
     line-height: 26px;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
 }
 
-.add_card .card-body div {
+.add_card .card-body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -165,7 +196,9 @@ body {
     flex-direction: row;
     margin: 25px 5px;
 }
+/* Contact me section END */
 
+/* Copyright section */
 .copyright {
     background-color: #313131;
     font-style: normal;
@@ -188,3 +221,4 @@ body {
     justify-content: center;
     margin-top: 1rem;
 }
+/* Copyright section END */
