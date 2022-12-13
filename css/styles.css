@@ -101,6 +101,12 @@ li span {
     object-fit: cover;
 }
 
+.card_div:hover {
+    box-shadow: inset 0px 0px 0px 
+			var(--text_color), 0 0 30px 
+			var(--text_color);
+}
+
 .card_div:hover img {
     opacity: 0.3;
 }
@@ -198,6 +204,12 @@ li span {
 .add_card .add_card-body {
     font-size: 14px;
     letter-spacing: 0.06em;
+}
+
+.social a i:hover{
+    box-shadow: inset 0px 0px 0px 
+			var(--text_color), 0 0 30px 
+			var(--text_color);
 }
 
 .social,
