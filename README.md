@@ -3,7 +3,7 @@ week 3 challenge - portfolio using bootstrap
 
 ## Description
 
-<img src="./images/wk3_challenge.png" alt="Week 3 Challenge screenshot" width="400px" >
+<img src="./assets/images/wk3_challenge.png" alt="Week 3 Challenge screenshot" width="400px" >
 <br>
 This project is to create a personal portfolio website, similar to the previous project, but this time do it using Bootstrap.
 Some of the acceptance criteria for this project:
